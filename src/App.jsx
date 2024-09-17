@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import './App.css'
 
-const apiUrl = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
+const apiUrl = 'http://18.153.55.24';
 
 function App() {
   const [todos, setTodos] = useState([]);
