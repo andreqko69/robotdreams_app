@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import './App.css'
 
-const apiUrl = 'http://18.153.55.24';
+const apiUrl = 'http://app-load-balancer-2064785223.eu-central-1.elb.amazonaws.com';
 
 function App() {
   const [todos, setTodos] = useState([]);
